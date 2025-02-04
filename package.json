@@ -8,6 +8,7 @@
     "test": "jest --watchAll --coverage",
     "dev": "vite",
     "build": "tsc && vite build",
+    "tam-cli": "bash ./cli/tam-cli.sh",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "format": "prettier --ignore-path .gitignore --write \"**/*.{ts,tsx,css,scss}\"",
