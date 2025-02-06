@@ -91,6 +91,9 @@ execute_choice() {
             check_hardcoded_colors
             ;;
         4)
+            ./cli/add-commit-push-changes.sh
+            ;;
+        5)
             echo "Exiting TAM CLI. Goodbye!"
             exit 0
             ;;
