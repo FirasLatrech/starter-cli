@@ -87,7 +87,7 @@ fi
 while true; do
     display_welcome
     display_menu
-    echo "4) Exit"
+    echo "5) Exit"
     read -p "Enter your choice: " choice
     execute_choice "$choice"
 

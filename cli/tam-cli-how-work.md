@@ -123,7 +123,7 @@ The script continuously displays the menu until the user chooses to exit:
 while true; do
     display_welcome
     display_menu
-    echo "4) Exit"
+    echo "5) Exit"
     read -p "Enter your choice: " choice
     execute_choice "$choice"
     read -p "Press Enter to return to the menu..."
