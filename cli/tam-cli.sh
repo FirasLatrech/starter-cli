@@ -20,6 +20,7 @@ display_menu() {
     echo "1) Create Module"
     echo "2) Create Folder"
     echo "3) Check Hardcoded Colors"
+    echo "4) push your changes"
 }
 
 # Function to validate input
@@ -64,6 +65,9 @@ execute_choice() {
             check_hardcoded_colors
             ;;
         4)
+            ./cli/add-commit-push-changes.sh
+            ;;
+        5)
             echo "Exiting TAM CLI. Goodbye!"
             exit 0
             ;;
