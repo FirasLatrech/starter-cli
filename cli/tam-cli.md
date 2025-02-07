@@ -1,7 +1,7 @@
 # TAM CLI Presentation
 
 ## Project Overview
-TAM CLI is a command-line interface (CLI) tool designed to help developers manage modules, folders, and check for hardcoded colors in their projects efficiently. The tool offers an intuitive interface with simple prompts to guide users through various operations.
+TAM CLI is a command-line interface (CLI) tool designed to help developers manage modules, folders, and check for hardcoded colors in their projects efficiently and automate Git commit and push with custom or Predefined Messages. The tool offers an intuitive interface with simple prompts to guide users through various operations.
 
 ---
 
@@ -10,6 +10,8 @@ The primary purpose of TAM CLI is to:
 - Automate the creation of modules and folders within a project.
 - Provide a mechanism to detect and manage hardcoded colors.
 - Offer a streamlined process for users to interact with their project structure using a simple CLI.
+- Automate Git Commit and Push with Custom or Predefined Messages
+
 
 ---
 
@@ -30,7 +32,8 @@ Once the script runs, it displays a welcome message along with a menu of availab
 1. **Create Module** – Prompts the user for a module name and directory.
 2. **Create Folder** – Prompts the user for a folder name and directory.
 3. **Check Hardcoded Colors** – Runs a scan for hardcoded colors in the project.
-4. **Exit** – Closes the CLI.
+4. **Automate Git Commit and Push** – Automate Git Commit and Push with Custom or Predefined Messages
+5. **Exit** – Closes the CLI.
 
 Users can select an option by entering the corresponding number.
 
@@ -47,7 +50,10 @@ Depending on the selected option:
 - **Checking Hardcoded Colors:**
   - The `check-colors.sh` script is executed to analyze color values.
 
-### Step 4: Exiting
+- **Automate Git Commit and Push:**
+  -Commit and Push with Custom or Predefined Messages.
+
+### Step 5: Exiting
 The user can exit the script by selecting option `4` or pressing `Ctrl + C`.
 
 ---
